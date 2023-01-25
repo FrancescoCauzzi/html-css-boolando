@@ -13,6 +13,7 @@ nav {
   height: 70px;
   color: white;
   background-color: #FF6900;
+  margin-bottom: 60px;
 }
 
 .flex-box{
@@ -20,9 +21,7 @@ nav {
 }
 
 .centered{
-  height: 100%;
-  border: 2px solid black;
-  /* debug */
+  height: 100%;  
   width: 80%;
   margin: auto;
 }
@@ -30,6 +29,7 @@ nav {
 .nav-inner{
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
   
 }
 
@@ -38,6 +38,7 @@ nav {
   height: 100%;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-inner .categories ul{
@@ -46,7 +47,7 @@ nav {
 
 .nav-inner .categories ul li{
   align-items: baseline;
-  width: 22%;  
+  width: 50px;  
 }
 
 .nav-inner .logo{
@@ -74,3 +75,71 @@ nav {
 }
 
 /* / nav */
+/* main */
+.main-inner-row{
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.img-card-box{
+  flex-direction: column;
+  width: 33%;
+  
+}
+
+.immagine{
+  position: relative;
+  font-size: 0.7em;
+  
+}
+
+.immagine:hover .cuore{
+  color: red;
+
+}
+
+.immagine img{
+  width: 100%;
+}
+
+.sconto {
+  background-color: red;
+  height: 6%;
+  width: 15%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 5%;
+  color: white;
+}
+
+.sostenibile{
+  background-color: green;
+  height: 6%;
+  width: 30%;
+  position: absolute;
+  justify-content: center;  
+  align-items: center;
+  bottom: 5%;
+  left: 17%;
+  color: white;
+
+
+}
+
+.cuore{
+  background-color: white;
+  height: 6%;
+  width: 8%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 3%;
+  right: 0%;
+  font-size: 1.8em;
+
+}
+
+/* main */
