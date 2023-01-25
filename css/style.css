@@ -117,6 +117,17 @@ main{
   width: 100%;
 }
 
+.immagine img.hidden{
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.immagine:hover img.hidden{
+  display: block;
+}
+
 .sconto {
   background-color: red;
   height: 6%;
