@@ -1,3 +1,7 @@
+a{
+  color: white;
+  text-decoration: none;
+}
 
 ul {
   list-style-type: none;
@@ -76,6 +80,9 @@ nav {
 
 /* / nav */
 /* main */
+main{
+  margin-bottom: 60px;
+}
 
 .main-inner{
   flex-direction: column;
@@ -152,4 +159,30 @@ nav {
 
 }
 
-/* main */
+/* /main */
+
+footer{
+  height: 100px;
+  color: white;
+  background-color: #1A1A1A; 
+  font-size: 0.8em;
+}
+
+footer-inner{
+  flex-direction: row;
+}
+
+.company-details{
+  width: 50%;
+  height: 100%;
+  
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-media{
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
