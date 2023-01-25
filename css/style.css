@@ -76,11 +76,17 @@ nav {
 
 /* / nav */
 /* main */
+
+.main-inner{
+  flex-direction: column;
+}
+
 .main-inner-row{
-  justify-content: space-between;
   width: 100%;
   gap: 10px;
+  justify-content: space-between;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .img-card-box{
@@ -118,7 +124,7 @@ nav {
 .sostenibile{
   background-color: green;
   height: 6%;
-  width: 30%;
+  width: 35%;
   position: absolute;
   justify-content: center;  
   align-items: center;
@@ -127,6 +133,10 @@ nav {
   color: white;
 
 
+}
+
+#last{
+  left: 0%;
 }
 
 .cuore{
